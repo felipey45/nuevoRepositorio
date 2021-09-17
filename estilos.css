@@ -1,0 +1,61 @@
+p{
+    color: blue;
+}
+h1{
+    color: fuchsia;
+}
+#p3{
+    color: green;
+}
+
+.parrafofusia{
+    color:fuchsia;
+}
+.fondoamarillo{
+    background-color: yellow;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.imagensmall{
+    height: 800px;
+   
+}
+.parrafoangosto{
+    width: 350px;
+}
+.contenedorconmargen{
+   margin: 10px; 
+   margin-bottom: 20px;
+   margin-top: 50px;
+   border: 1px solid red;
+   padding: 10px;
+}
+
+.divtest{
+
+    display: grid;
+    border: 2px solid red;
+    grid-column: auto ;
+    grid-template-columns: 150px;
+    grid-template-rows: 30% 20% 50%;
+}
+
+.divflex{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.conten{
+    border: 2px solid blue;
+}
+
+
+
+
