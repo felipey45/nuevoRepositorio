@@ -18,12 +18,7 @@ ul{
 
 .mainButton {
     background-color: green;
-    color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    
+    color: white;   
 }
 
 .mainButton:hover{
@@ -32,3 +27,23 @@ ul{
     box-shadow: 5px 5px green;
 }
 
+.secondart {
+    background-color: blue;
+    color: white;
+   
+    
+}
+
+.secondart:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 5px 5px blue;
+}
+
+.button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    height: 20px;
+}
